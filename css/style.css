@@ -31,6 +31,7 @@ background-color: #007998;
 }
   
 
+
 .menu-principal {
     display: flex;
     font-family: sans-serif;
@@ -39,6 +40,7 @@ background-color: #007998;
     font-weight:lighter;
     list-style: none;
     margin: 0;
+    padding:0 3rem 0 0;
 }
 
 
