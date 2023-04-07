@@ -189,13 +189,20 @@ footer {
     cursor: pointer;
     padding: 0.5 rem 0; }
   nav #toggle:checked ~ .menu {
+    display: flex;
     height: 100%; }
+  .frase-color {
+    font-size: small; }
   .cadera-imagen {
     grid-template-columns: 300px; }
   .rodilla-imagen {
     grid-template-columns: 300px; }
   .menu-principal {
     flex-direction: column; } }
+
+@media (max-width: 600px) {
+  .frase-color {
+    font-size: xx-small; } }
 
 @media (max-width: 500px) {
   .datos-fernando {

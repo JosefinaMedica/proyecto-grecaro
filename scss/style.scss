@@ -1,6 +1,7 @@
 
    
-   @import "base/reset";
+  @import "./utilities/mixins";
+  @import "base/reset";
    @import "layout/header";
    @import "layout/mainindex";
    @import "layout/main";

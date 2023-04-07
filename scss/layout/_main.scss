@@ -99,13 +99,7 @@ main{
     
     
     .cadera-imagen{
-        display: grid;
-        width: 100%;
-        padding: 0 50px;
-        grid-template-columns: 300px 300px 300px 300px;
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include grid;
     }
     .cadera-texto{
         padding: 50px;
@@ -114,13 +108,7 @@ main{
         font-weight: lighter;
     }
     .rodilla-imagen{
-        display: grid;
-        width: 100%;
-        padding: 0 50px;
-        grid-template-columns: 300px 300px 300px 300px;
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include grid;
     }
     .rodilla-texto{
         padding: 50px;
