@@ -1,0 +1,130 @@
+
+
+
+main{
+    h1{
+        font-family:'Montserrat', sans-serif;
+        font-size: medium;
+        color: #007998;
+        border-bottom: 1px solid #007998;
+        color: #007998;
+        padding: 20px 50px 20px 50px;
+    }
+
+
+    .contenedor-lugares{
+        main-height: 600px;
+    }
+
+    section{
+        
+
+        .todo{
+        background-color: #f70c7969;
+        padding: 50px 0;
+        }
+        
+        .atencion{
+        color: #5A5459;
+        text-align: center;
+        font-family:'Montserrat', sans-serif;
+        background-color: #E3E3E3;
+        font-size: initial;
+        text-decoration: underline;
+        margin-bottom: 30px;
+        }
+        .datos{
+            background-color: #E3E3E3;
+            font-family:'roboto', sans-serif;
+            color: #5A5459;
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        }
+        
+        }
+        .todo-eduardo{
+            padding: 50px 0;
+        }
+        .atencion-eduardo{
+            color: #5A5459;
+            text-align: center;
+            font-family:'Montserrat', sans-serif;
+            font-size: initial;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        .datos-eduardo{
+            font-family:'roboto', sans-serif;
+    color: #5A5459;
+    font-weight: lighter;
+    text-align: center;
+        }
+
+       .contener-imagen-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 600px;
+        align-items: center;
+        }
+        .imagen-texto{
+         display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 30px;
+        }
+        .texto-fernando{
+            font-family: 'roboto', sans-serif;
+            color:#5A5459;
+            font-weight: lighter;
+            line-height: 1,5;
+        }
+     
+    
+    
+    h2{
+        font-family:'Montserrat', sans-serif;
+        color:#5A5459;
+        text-align: start;
+        width: 70%;
+        padding-top: 1.5rem;
+    }
+  
+    
+    
+    .cadera-imagen{
+        display: grid;
+        width: 100%;
+        padding: 0 50px;
+        grid-template-columns: 300px 300px 300px 300px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cadera-texto{
+        padding: 50px;
+        font-family:'roboto', sans-serif;
+        color: #5A5459;
+        font-weight: lighter;
+    }
+    .rodilla-imagen{
+        display: grid;
+        width: 100%;
+        padding: 0 50px;
+        grid-template-columns: 300px 300px 300px 300px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rodilla-texto{
+        padding: 50px;
+        font-family:'roboto', sans-serif;
+        color: #5A5459;
+        font-weight: lighter;
+    }
