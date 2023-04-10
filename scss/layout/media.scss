@@ -1,69 +1,43 @@
 
-
-
-@media (max-width:768px){
- 
-    
-    nav .menu{
-        width: 100%;
-        height: 0;
-        overflow: hidden;
+@media (max-width: 768px) {
+    nav .menu {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
     }
-    .menu ul{
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 0.5 rem 0;
+    .menu ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    nav label{
-        display: inline-flex;
-        color: white;
-        cursor: pointer;
-        padding: 0.5 rem 0;
+    nav label {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+      padding: 0.5 rem 0;
     }
-
-    nav #toggle:checked ~ .menu{
-    display: flex;
-     height: 100%;
-
+  
+    nav #toggle:checked ~ .menu {
+      display: flex;
+      height: 100%;
     }
-
-    .frase-color{
-        font-size: small;
+  
+    .frase-color {
+      font-size: small;
     }
-
-
-    .cadera-imagen{
-        grid-template-columns: 300px;
+  
+    .cadera-imagen {
+      grid-template-columns: 300px;
     }
-    .rodilla-imagen{
-        grid-template-columns: 300px;
+    .rodilla-imagen {
+      grid-template-columns: 300px;
     }
-    .menu-principal{
-        flex-direction: column;
+    .menu-principal {
+      flex-direction: column;
     }
-}
-
-
-@media (max-width:600px){
-    .frase-color{
-       font-size: xx-small;
-     }
-    }
-
-
-@media (max-width:500px){
-   
-    .datos-fernando{
-        font-size: .9rem;
-    }
-    .datos-eduardo{
-        font-size: .9rem;
-    }
-    .datos-fernando2{
-        font-size: .9rem;
-    }
-}
+  }
+  
 
 @media(max-width:320px){
 

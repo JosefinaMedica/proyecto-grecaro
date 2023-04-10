@@ -11,19 +11,27 @@ main{
         padding: 20px 50px 20px 50px;
     }
 
+    .contenedor-imagen-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 600px;
+        align-items: center;
+        
+    }
+
 
     .contenedor-lugares{
         main-height: 600px;
     }
 
     section{
-        
-
         .todo{
-        background-color: #f70c7969;
-        padding: 50px 0;
+            background-color: #007998;
         }
-        
+     
+
         .atencion{
         color: #5A5459;
         text-align: center;
@@ -89,11 +97,13 @@ main{
     
     
     h2{
-        font-family:'Montserrat', sans-serif;
-        color:#5A5459;
+        font-family: 'Montserrat', sans-serif;
+        color: #5A5459;
         text-align: start;
-        width: 70%;
-        padding-top: 1.5rem;
+        width: 100%;
+        padding-top: 2.5rem;
+        padding-bottom: 2,5rem;
+        padding: 50px;
     }
   
     
