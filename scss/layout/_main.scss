@@ -23,26 +23,25 @@ main{
 
 
     .contenedor-lugares{
-        main-height: 600px;
+        min-height: 600px;
     }
 
-    section{
-        .todo{
-            background-color: #007998;
-        }
-     
+    .todo{
+     background-color: #a6a4a4;
+     padding: 50px 0;
+
 
         .atencion{
         color: #5A5459;
         text-align: center;
         font-family:'Montserrat', sans-serif;
-        background-color: #E3E3E3;
+        
         font-size: initial;
         text-decoration: underline;
         margin-bottom: 30px;
         }
         .datos{
-            background-color: #E3E3E3;
+        
             font-family:'roboto', sans-serif;
             color: #5A5459;
             font-weight: lighter;
@@ -51,9 +50,11 @@ main{
         
         }
         
-        }
+        
         .todo-eduardo{
-            padding: 50px 0;
+            @extend .todo;
+            background-color: transparent;
+
         }
         .atencion-eduardo{
             color: #5A5459;
@@ -63,12 +64,14 @@ main{
             text-decoration: underline;
             margin-bottom: 30px;
         }
+        
 
-        .datos-eduardo{
-            font-family:'roboto', sans-serif;
-    color: #5A5459;
-    font-weight: lighter;
-    text-align: center;
+      .datos-eduardo{
+        font-family:'roboto', sans-serif;
+        color: #5A5459;
+        font-weight: lighter;
+        text-align: center;
+
         }
 
        .contener-imagen-texto{
@@ -86,12 +89,15 @@ main{
         align-items: center;
         padding-top: 50px;
         gap: 30px;
-        }
+         }
+
+        
         .texto-fernando{
             font-family: 'roboto', sans-serif;
             color:#5A5459;
             font-weight: lighter;
             line-height: 1,5;
+            line-height : 25px;
         }
      
     
@@ -126,3 +132,4 @@ main{
         color: #5A5459;
         font-weight: lighter;
     }
+}

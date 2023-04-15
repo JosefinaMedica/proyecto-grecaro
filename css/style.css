@@ -12,7 +12,7 @@
     justify-content: center;
     width: 100%; }
   .header-index .logo-ajustar img {
-    width: 20%;
+    height: 100px;
     padding: 1.5rem; }
 
 nav {
@@ -23,10 +23,10 @@ nav {
   background-color: #007998;
   font-weight: lighter;
   list-style: none;
-  margin: 0;
-  padding: 0 3rem 0 0; }
+  margin: 0; }
   nav ul {
-    margin: 0; }
+    margin: 0;
+    padding: 0; }
   nav li {
     display: inline-block;
     margin: 15px 0;
@@ -42,15 +42,19 @@ nav #toggle, nav label {
   display: none; }
 
 .frase-color {
-  display: flex;
   background-color: #B2B851;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   color: #e3e3e3;
-  height: 50px;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
   margin-bottom: 0; }
+
+.contenedor-carousel {
+  display: flex;
+  align-items: center;
+  min-height: 400px; }
 
 main h1 {
   font-family: 'Montserrat', sans-serif;
@@ -69,31 +73,28 @@ main .contenedor-imagen-texto {
   align-items: center; }
 
 main .contenedor-lugares {
-  main-height: 600px; }
+  min-height: 600px; }
 
-main section .todo {
-  background-color: #007998; }
-
-main section .atencion {
-  color: #5A5459;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #E3E3E3;
-  font-size: initial;
-  text-decoration: underline;
-  margin-bottom: 30px; }
-
-main section .datos {
-  background-color: #E3E3E3;
-  font-family: 'roboto', sans-serif;
-  color: #5A5459;
-  font-weight: lighter;
-  text-align: center; }
-
-.todo-eduardo {
+main .todo, main .todo-eduardo {
+  background-color: #a6a4a4;
   padding: 50px 0; }
+  main .todo .atencion, main .todo-eduardo .atencion {
+    color: #5A5459;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: initial;
+    text-decoration: underline;
+    margin-bottom: 30px; }
+  main .todo .datos, main .todo-eduardo .datos {
+    font-family: 'roboto', sans-serif;
+    color: #5A5459;
+    font-weight: lighter;
+    text-align: center; }
 
-.atencion-eduardo {
+main .todo-eduardo {
+  background-color: transparent; }
+
+main .atencion-eduardo {
   color: #5A5459;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -101,13 +102,13 @@ main section .datos {
   text-decoration: underline;
   margin-bottom: 30px; }
 
-.datos-eduardo {
+main .datos-eduardo {
   font-family: 'roboto', sans-serif;
   color: #5A5459;
   font-weight: lighter;
   text-align: center; }
 
-.contener-imagen-texto {
+main .contener-imagen-texto {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -115,7 +116,7 @@ main section .datos {
   min-height: 600px;
   align-items: center; }
 
-.imagen-texto {
+main .imagen-texto {
   display: flex;
   width: 70%;
   justify-content: center;
@@ -123,13 +124,14 @@ main section .datos {
   padding-top: 50px;
   gap: 30px; }
 
-.texto-fernando {
+main .texto-fernando {
   font-family: 'roboto', sans-serif;
   color: #5A5459;
   font-weight: lighter;
-  line-height: 1,5; }
+  line-height: 1,5;
+  line-height: 25px; }
 
-h2 {
+main h2 {
   font-family: 'Montserrat', sans-serif;
   color: #5A5459;
   text-align: start;
@@ -138,7 +140,7 @@ h2 {
   padding-bottom: 2,5rem;
   padding: 50px; }
 
-.cadera-imagen {
+main .cadera-imagen {
   display: grid;
   width: 100%;
   padding: 0 50px;
@@ -147,13 +149,13 @@ h2 {
   flex-wrap: wrap;
   justify-content: center; }
 
-.cadera-texto {
+main .cadera-texto {
   padding: 50px;
   font-family: 'roboto', sans-serif;
   color: #5A5459;
   font-weight: lighter; }
 
-.rodilla-imagen {
+main .rodilla-imagen {
   display: grid;
   width: 100%;
   padding: 0 50px;
@@ -162,7 +164,7 @@ h2 {
   flex-wrap: wrap;
   justify-content: center; }
 
-.rodilla-texto {
+main .rodilla-texto {
   padding: 50px;
   font-family: 'roboto', sans-serif;
   color: #5A5459;
@@ -183,6 +185,9 @@ footer {
     margin: 0; }
 
 @media (max-width: 768px) {
+  .material-icons {
+    font-size: 1rem;
+    margin: 15px 0; }
   nav .menu {
     width: 100%;
     height: 0;
@@ -200,6 +205,11 @@ footer {
   nav #toggle:checked ~ .menu {
     display: flex;
     height: 100%; }
+  .imagen-texto {
+    flex-direction: column;
+    width: 90%; }
+  .imagen-flecha {
+    display: none; }
   .frase-color {
     font-size: small; }
   .cadera-imagen {

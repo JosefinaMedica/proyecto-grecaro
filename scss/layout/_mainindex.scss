@@ -2,13 +2,21 @@
 
 
 .frase-color{
-    display: flex;
     background-color: #B2B851;
     font-family:'Montserrat', sans-serif;
     letter-spacing: 1px;
     color: #e3e3e3;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
     margin-bottom: 0;
+
+    
+}
+
+
+.contenedor-carousel{
+    display: flex;
+    align-items: center;
+    min-height: 400px;
 }
