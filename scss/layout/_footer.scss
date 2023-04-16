@@ -2,14 +2,16 @@ footer{
     display: flex;
     background-color: #B2B851;
     font-family:'Montserrat', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0,5px;
     font-size: small;
     text-align: center;
     color: aliceblue;
-    height: 50px;
+   
     align-items: center;
     justify-content: center;
+    padding: 10px 10px;
     div p{
     margin: 0;
     }
 }
+

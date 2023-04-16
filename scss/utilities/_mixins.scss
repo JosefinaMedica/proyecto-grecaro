@@ -1,8 +1,7 @@
-@mixin grid{
-    display: grid;
+@mixin flex{
+    display: flex;
         width: 100%;
         padding: 0 50px;
-        grid-template-columns: 300px 300px 300px 300px;
         gap: 20px;
         flex-wrap: wrap;
         justify-content: center;

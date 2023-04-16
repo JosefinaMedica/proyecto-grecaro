@@ -32,21 +32,16 @@
   flex-direction: column;
   width: 90%;
 }
- .imagen-flecha{
-display: none;
-} 
+
     .frase-color {
       font-size: small;
     }
 
-
+.boton-personalizado{
+  display: none;
+}
   
-    .cadera-imagen {
-      grid-template-columns: 300px;
-    }
-    .rodilla-imagen {
-      grid-template-columns: 300px;
-    }
+  
     .menu-principal {
       flex-direction: column;
     }

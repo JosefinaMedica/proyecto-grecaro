@@ -20,15 +20,30 @@ main{
         align-items: center;
         
     }
-
+    .boton-personalizado {
+     background-color: gb(239, 238, 238); 
+    border-radius: 0%;
+    color: rgb(119, 119, 119); 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    border: none; 
+      }
+      .boton-personalizado:hover {
+        background-color: rgb(119, 119, 119); 
+        color: #eeeeee; 
+    }
 
     .contenedor-lugares{
-        min-height: 600px;
+        min-height: 800px;
     }
 
     .todo{
-     background-color: #a6a4a4;
-     padding: 50px 0;
+     background-color: #e4e4e4;
+     padding: 55px 0;
 
 
         .atencion{
@@ -112,10 +127,23 @@ main{
         padding: 50px;
     }
   
+    .subtitulo p{
+        font-family: 'Montserrat', sans-serif;
+
+    }
     
+.titulos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+    .artrosis{
+        letter-spacing: 1px;
+        font-family: 'Montserrat', sans-serif;
+    }
     
     .cadera-imagen{
-        @include grid;
+        @include flex;
     }
     .cadera-texto{
         padding: 50px;
@@ -124,7 +152,7 @@ main{
         font-weight: lighter;
     }
     .rodilla-imagen{
-        @include grid;
+        @include flex;
     }
     .rodilla-texto{
         padding: 50px;

@@ -18,12 +18,12 @@
 nav {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'roboto', sans-serif;
   justify-content: center;
   background-color: #007998;
   font-weight: lighter;
   list-style: none;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; }
   nav ul {
     margin: 0;
     padding: 0; }
@@ -72,12 +72,28 @@ main .contenedor-imagen-texto {
   min-height: 600px;
   align-items: center; }
 
+main .boton-personalizado {
+  background-color: gb(239, 238, 238);
+  border-radius: 0%;
+  color: #777777;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none; }
+
+main .boton-personalizado:hover {
+  background-color: #777777;
+  color: #eeeeee; }
+
 main .contenedor-lugares {
-  min-height: 600px; }
+  min-height: 800px; }
 
 main .todo, main .todo-eduardo {
-  background-color: #a6a4a4;
-  padding: 50px 0; }
+  background-color: #e4e4e4;
+  padding: 55px 0; }
   main .todo .atencion, main .todo-eduardo .atencion {
     color: #5A5459;
     text-align: center;
@@ -140,11 +156,21 @@ main h2 {
   padding-bottom: 2,5rem;
   padding: 50px; }
 
+main .subtitulo p {
+  font-family: 'Montserrat', sans-serif; }
+
+main .titulos {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small; }
+
+main .artrosis {
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif; }
+
 main .cadera-imagen {
-  display: grid;
+  display: flex;
   width: 100%;
   padding: 0 50px;
-  grid-template-columns: 300px 300px 300px 300px;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center; }
@@ -156,10 +182,9 @@ main .cadera-texto {
   font-weight: lighter; }
 
 main .rodilla-imagen {
-  display: grid;
+  display: flex;
   width: 100%;
   padding: 0 50px;
-  grid-template-columns: 300px 300px 300px 300px;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center; }
@@ -174,13 +199,13 @@ footer {
   display: flex;
   background-color: #B2B851;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0,5px;
   font-size: small;
   text-align: center;
   color: aliceblue;
-  height: 50px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 10px 10px; }
   footer div p {
     margin: 0; }
 
@@ -208,14 +233,10 @@ footer {
   .imagen-texto {
     flex-direction: column;
     width: 90%; }
-  .imagen-flecha {
-    display: none; }
   .frase-color {
     font-size: small; }
-  .cadera-imagen {
-    grid-template-columns: 300px; }
-  .rodilla-imagen {
-    grid-template-columns: 300px; }
+  .boton-personalizado {
+    display: none; }
   .menu-principal {
     flex-direction: column; } }
 
