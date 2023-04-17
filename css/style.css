@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -44,7 +45,7 @@ nav #toggle, nav label {
 .frase-color {
   background-color: #B2B851;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #e3e3e3;
   width: 100%;
   padding: 20px 10px;
@@ -63,6 +64,9 @@ main h1 {
   border-bottom: 1px solid #007998;
   color: #007998;
   padding: 20px 50px 20px 50px; }
+
+main .fernando:hover {
+  filter: grayscale(100%); }
 
 main .contenedor-imagen-texto {
   display: flex;
@@ -199,8 +203,11 @@ footer {
   display: flex;
   background-color: #B2B851;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0,5px;
-  font-size: small;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  /* o el tamaño que prefieras */
+  line-height: 1.5;
+  /* o el espaciado que prefieras */
   text-align: center;
   color: aliceblue;
   align-items: center;

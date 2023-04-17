@@ -1,17 +1,19 @@
-footer{
+footer {
     display: flex;
     background-color: #B2B851;
-    font-family:'Montserrat', sans-serif;
-    letter-spacing: 0,5px;
-    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px; /* o el tamaño que prefieras */
+    line-height: 1.5; /* o el espaciado que prefieras */
     text-align: center;
     color: aliceblue;
-   
     align-items: center;
     justify-content: center;
     padding: 10px 10px;
     div p{
-    margin: 0;
+        margin: 0;
     }
-}
+  }
+  
+  
 
