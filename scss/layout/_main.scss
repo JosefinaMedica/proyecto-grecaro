@@ -1,5 +1,5 @@
 
-
+$backgroundColorPrincipal: #e4e4e4;
 
 main{
     h1{
@@ -46,7 +46,7 @@ main{
     }
 
     .todo{
-     background-color: #e4e4e4;
+     background-color: $backgroundColorPrincipal ;
      padding: 55px 0;
 
 

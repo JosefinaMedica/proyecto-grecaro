@@ -237,21 +237,43 @@ footer {
   nav #toggle:checked ~ .menu {
     display: flex;
     height: 100%; }
-  .imagen-texto {
+  main .imagen-texto {
     flex-direction: column;
-    width: 90%; }
-  .frase-color {
+    width: 90%;
+    padding-top: 0;
+    padding-bottom: 50px; }
+  main .frase-color {
     font-size: small; }
-  .boton-personalizado {
+  main .boton-personalizado {
     display: none; }
-  .menu-principal {
-    flex-direction: column; } }
+  main .menu-principal {
+    flex-direction: column; }
+  footer p {
+    font-size: small; } }
 
 @media (max-width: 320px) {
+  .titulo-principal {
+    font-size: 1.3rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center; }
+  .texto-fernando {
+    padding: 10px 10px;
+    font-size: .9rem; }
+  .datos {
+    font-size: small;
+    padding: 0 10%; }
+  .datos-eduardo {
+    font-size: small; }
+  .titulo-cadera {
+    font-size: 1.3rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center; }
   .titulo-rodilla {
     font-size: 1.3rem;
     padding-left: 0;
     padding-right: 0;
     text-align: center; }
-  .rodilla-texto {
-    text-align: center; } }
+  footer p {
+    font-size: x-small; } }
